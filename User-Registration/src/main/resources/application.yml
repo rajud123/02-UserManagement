@@ -1,0 +1,3 @@
+#server managed jdbc connection poolspring:  datasource:    jndi-name: java:/comp/env/DsJndi
+#spring data jpa properties      jpa:    hibernate:      ddl-auto: update     show-sql: true    
+       
